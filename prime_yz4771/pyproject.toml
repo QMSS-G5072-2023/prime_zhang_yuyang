@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "prime_yz4771"
+version = "0.1.0"
+description = "This package is designed by Yuyang Zhang to identify and generate prime numbers."
+authors = ["Yuyang Zhang"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
